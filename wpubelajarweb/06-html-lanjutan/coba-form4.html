@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coba ELement Form di dalam Tabel</title>
+</head>
+<body>
+    <h1>Contoh Elemen-Elemen Form HTML</h1>
+
+    <!-- Perbedaannya Pada Label -->
+    <form>
+
+        <table cellpadding="4">
+            <tr>
+                <td align="right">
+                    <label for="nama">Nama: </label>
+                </td>
+                <td>
+                    <input type="text" name="nama" id="nama" placeholder="Masukkan nama">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">
+                    <label for="kelas">Kelas:</lable>
+                </td>
+                <td>
+                    <input type="kelas" name="kelas" id="kelas" placeholder="Masukkan kelas">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">
+                    <label for="password">Password:</lable>
+                </td>
+                <td>
+                    <input type="password" name="password" id="password" placeholder="Masukkan password">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">
+                    <label for="email">Email:</label>
+                </td>
+                <td>
+                    <input type="email" name="email" id="email" placeholder="Masukkan email">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">
+                    <label for="angka">Angka:</label>
+                </td>
+                <td>
+                    <input type="number" name="number" id="number" min="0" max="100" step="5">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">
+                    <label for="tanggal">Tanggal:</label>
+                </td>
+                <td>
+                    <input type="date" name="tanggal" id="tanggal">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">
+                    <label for="warna">Warna:</label>
+                </td>
+                <td>
+                    <input type="color" name="warna" id="warna">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">
+                    <label for="link">Link:</label>
+                </td>
+                <td>
+                    <input type="url" name="link" id="link" placeholder="Masukkan link">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">
+                    <table for="telepon">Kontak:</table>
+                </td>
+                <td>
+                    <input type="tel" name="telepon" id="telepon" placeholder="Masukkan nomor">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">
+                    <label for="berkas">File:</label>
+                </td>
+                <td>
+                    <input type="file" name="berkas" id="berkas" placeholder="Masukkan berkas">
+                </td>
+            </tr>
+
+            
+            <tr>
+                <td align="right">
+                    <label for="hobby1">Hobby:</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="hobby1" id="hobby1" value="olahraga" checked>Olahraga
+                </td>
+            </tr>
+            
+            <tr>
+                <td align="right">
+                    <label for="pria">Jenis Kelamin:</label>
+                </td>
+                <td>
+                    <input type="radio" name="jenis_kelamin" id="pria" value="pria" checked>Pria
+                </td>
+            </tr>
+            
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="submit">Kirim</button>
+                </td>
+                <!-- Posisi Tombol Bisa Diubah ke Kanan & Tengah. Isi Pada "align" -->
+            </tr>
+
+        </table>
+        
+        </form>
+    </body>
+    </html>
