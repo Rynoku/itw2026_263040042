@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coba CSS - Font Styling</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Storm&display=swap');
+
+        @font-face {
+            font-family: Tiny;
+            src: url('fonts/Tiny5Duo-VariableFont_BLED\,JITT\,ROND\,wdth\,wght.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        h1 {
+            color: crimson;
+            font-size: 60px;
+            text-align: center;
+            font-family: "Bebas Neue", sans-serif;
+        }
+
+        p {
+            color: navy;
+            text-align: center;
+            font-size: 20px;
+            font-family: "Rubik Storm", sans-serif;
+        }
+
+        .font-tiny {
+            font-family: Tiny, arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Hello World</h1>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium delectus quis expedita sapiente quos. Voluptatibus esse nemo laborum modi exercitationem!
+    </p>
+    <p class="font-tiny">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, iusto.
+    </p>
+    
+</body>
+</html>
